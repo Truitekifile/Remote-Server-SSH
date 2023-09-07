@@ -59,6 +59,29 @@ When the tool is launched, it should look like that:
 
 ![image](https://github.com/Truitekifile/Remote-Server-SSH/assets/91056971/a2932f24-61de-4f27-a51a-1b5c3f861f26)
 
+__Available commands:__
+
+  get <remote_path> [local_path]: Download a file or a folder from the server
+  send <local_path> [remote_path]: Send a file or a folder to the server
+  del <remote_path>: Delete a file or a folder on the server
+  ls <remote_path>: List the contents of <remote_path> on the server
+  mkdir <remote_path>: Create a folder on the server
+  status: Check SSH connection to the server
+  shell: Start a shell connected to the server
+  get-all <remote_path> [local_path]: Download the entire contents of a folder from the server
+  send-all <local_path> [remote_path]: Send the entire contents of a folder to the server
+  help: Print help
+  exit: Exit the tool
+
+### You need to specify the name of the file on the two path (local and server)
+Like this :
+
+> /home/user/save/file.txt
+> c:/users/user/downloads/file.txt
+
+Otherwise your file will be rename like the last part of your path, in this case save/, lol
+  
+
 
 
 
