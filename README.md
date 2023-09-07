@@ -92,8 +92,7 @@ When the tool is launched, it should look like that:
 
 /> local path --> /path/on/your/computer/file.txt
 
-same for send, get and del
-Every other commands don't need to specify the file and the extension (mkdir, get-all, send-all, ls, shell)
+same for ```send```, ```get``` and ```del```. Every other commands don't need to specify the file and the extension (```mkdir```, ```get-all```, ```send-all```, ```ls```, ```shell```)
 
 
 ### You need to specify the name of the file on the two path (local and server)
