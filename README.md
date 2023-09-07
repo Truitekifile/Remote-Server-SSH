@@ -59,22 +59,45 @@ When the tool is launched, it should look like that:
 
 ![image](https://github.com/Truitekifile/Remote-Server-SSH/assets/91056971/a2932f24-61de-4f27-a51a-1b5c3f861f26)
 
-__Available commands:__
+## Available commands:
 
-  get <remote_path> [local_path]: Download a file or a folder from the server
-  send <local_path> [remote_path]: Send a file or a folder to the server
-  del <remote_path>: Delete a file or a folder on the server
-  ls <remote_path>: List the contents of <remote_path> on the server
-  mkdir <remote_path>: Create a folder on the server
-  status: Check SSH connection to the server
-  shell: Start a shell connected to the server
-  get-all <remote_path> [local_path]: Download the entire contents of a folder from the server
-  send-all <local_path> [remote_path]: Send the entire contents of a folder to the server
-  help: Print help
-  exit: Exit the tool
+```get <remote_path> [local_path]: Download a file or a folder from the server```
+
+```send <local_path> [remote_path]: Send a file or a folder to the server```
+
+```del <remote_path>: Delete a file or a folder on the server```
+
+```ls <remote_path>: List the contents of <remote_path> on the server```
+
+```mkdir <remote_path>: Create a folder on the server```
+
+```status: Check SSH connection to the server```
+
+```shell: Start a shell connected to the server```
+
+```get-all <remote_path> [local_path]: Download the entire contents of a folder from the server```
+
+```send-all <local_path> [remote_path]: Send the entire contents of a folder to the server```
+
+```help: Print help```
+
+```exit: Exit the tool```
+
+
+## Usage
+
+/> send
+
+/> server path --> /path/on/the/server/file.txt
+
+/> local path --> /path/on/your/computer/file.txt
+
+same for send, get and del
+Every other commands don't need to specify the file and the extension (mkdir, get-all, send-all, ls, shell)
+
 
 ### You need to specify the name of the file on the two path (local and server)
-Like this :
+Like this
 
 > /home/user/save/file.txt
 > c:/users/user/downloads/file.txt
