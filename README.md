@@ -100,6 +100,7 @@ same for ```send```, ```get``` and ```del```. Every other commands don't need to
 Like this
 
 > /home/user/save/file.txt
+
 > c:/users/user/downloads/file.txt
 
 Otherwise your file will be rename like the last part of your path, in this case save/, lol
