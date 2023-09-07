@@ -1,0 +1,4 @@
+pysftp
+argparse
+colorama
+tqdm
