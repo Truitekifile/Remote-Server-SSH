@@ -61,36 +61,37 @@ When the tool is launched, it should look like that:
 
 ## Available commands:
 
-```get <remote_path> [local_path]: Download a file or a folder from the server```
 
-```send <local_path> [remote_path]: Send a file or a folder to the server```
+> get <remote_path> [local_path]: Download a file or a folder from the server
 
-```del <remote_path>: Delete a file or a folder on the server```
+> send <local_path> [remote_path]: Send a file or a folder to the server
 
-```ls <remote_path>: List the contents of <remote_path> on the server```
+> del <remote_path>: Delete a file or a folder on the server
 
-```mkdir <remote_path>: Create a folder on the server```
+> ls <remote_path>: List the contents of <remote_path> on the server
 
-```status: Check SSH connection to the server```
+> mkdir <remote_path>: Create a folder on the server
 
-```shell: Start a shell connected to the server```
+> status: Check SSH connection to the server
 
-```get-all <remote_path> [local_path]: Download the entire contents of a folder from the server```
+> shell: Start a shell connected to the server
 
-```send-all <local_path> [remote_path]: Send the entire contents of a folder to the server```
+> get-all <remote_path> [local_path]: Download the entire contents of a folder from the server
 
-```help: Print help```
+> send-all <local_path> [remote_path]: Send the entire contents of a folder to the server
 
-```exit: Exit the tool```
+> help: Print help
+
+> exit: Exit the tool
 
 
 ## Usage
 
-/> send
+``` > send```
 
-/> server path --> /path/on/the/server/file.txt
+``` > server path --> /path/on/the/server/file.txt```
 
-/> local path --> /path/on/your/computer/file.txt
+``` > local path --> /path/on/your/computer/file.txt```
 
 same for ```send```, ```get``` and ```del```. Every other commands don't need to specify the file and the extension (```mkdir```, ```get-all```, ```send-all```, ```ls```, ```shell```)
 
