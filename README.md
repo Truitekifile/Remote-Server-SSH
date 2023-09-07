@@ -47,7 +47,7 @@ Now that the tool is installed and configured, here is two method to launch it:
 
 Go in the tool folder, open a terminal and type
 ```
-python remote_server_ssh.py
+python remote_remote server_ssh.py
 ```
 But this is long and anoying to write this each time. So you can also just ...
 
@@ -62,23 +62,23 @@ When the tool is launched, it should look like that:
 ## Available commands:
 
 
-> get <remote_path> [local_path]: Download a file or a folder from the server
+> get <remote_path> [local_path]: Download a file or a folder from the remote server
 
-> send <local_path> [remote_path]: Send a file or a folder to the server
+> send <local_path> [remote_path]: Send a file or a folder to the remote server
 
-> del <remote_path>: Delete a file or a folder on the server
+> del <remote_path>: Delete a file or a folder on the remote server
 
-> ls <remote_path>: List the contents of <remote_path> on the server
+> ls <remote_path>: List the contents of <remote_path> on the remote server
 
-> mkdir <remote_path>: Create a folder on the server
+> mkdir <remote_path>: Create a folder on the remote server
 
-> status: Check SSH connection to the server
+> status: Check SSH connection to the remote server
 
-> shell: Start a shell connected to the server
+> shell: Start a shell connected to the remote server
 
-> get-all <remote_path> [local_path]: Download the entire contents of a folder from the server
+> get-all <remote_path> [local_path]: Download the entire contents of a folder from the remote server
 
-> send-all <local_path> [remote_path]: Send the entire contents of a folder to the server
+> send-all <local_path> [remote_path]: Send the entire contents of a folder to the remote server
 
 > help: Print help
 
